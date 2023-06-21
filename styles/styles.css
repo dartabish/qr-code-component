@@ -47,18 +47,18 @@ p {
 /* ||MOBILE DEVICES */
 @media screen and (max-width: 767px) {
     .container {
-        max-width: 380px;
-        margin: 6rem auto;
+        max-width: 360px;
+        margin: 2.5rem auto;
         padding: 1.5rem;
     }
 
     .qr-container img {
-        width: 330px;
+        width: 310px;
         height: 330px;
     }
 
     h2 {
-        font-size: 1.70rem;
+        font-size: 1.65rem;
     }
 
     p {
