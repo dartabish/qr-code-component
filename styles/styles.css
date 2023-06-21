@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* GENERAL STYLES */
 
 body {
     font-family: 'Outfit', sans-serif;
@@ -12,7 +13,6 @@ body {
 }
 
 .container {
-    border: 1px solid white;
     border-radius: 20px;
     background-color: white;
     max-width: 320px;
@@ -21,8 +21,9 @@ body {
 }
 
 .qr-container img {
+    display: block;
     width: 100%;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .qr-captions {
@@ -41,6 +42,28 @@ h2 {
 p {
     color: hsl(220, 15%, 55%);
     padding-top: 1rem;
+}
+
+/* ||MOBILE DEVICES */
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 380px;
+        margin: 6rem auto;
+        padding: 1.5rem;
+    }
+
+    .qr-container img {
+        width: 330px;
+        height: 330px;
+    }
+
+    h2 {
+        font-size: 1.70rem;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
 
 
